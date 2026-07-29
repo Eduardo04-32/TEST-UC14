@@ -1,0 +1,113 @@
+/* Reset básico para limpar margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo da página centralizado e suave */
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://i.pinimg.com/1200x/4c/c5/f5/4cc5f5785631deeb019a75a5c367b2db.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container principal do formulário */ 
+.cadastro-container {
+    background-color: #ffffff00;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+    border: 3px solid #220080;
+    box-shadow: 0 0 40px #1e40ff;
+}
+
+/* Título e subtítulo */
+h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+/* Grupos de inputs */
+.campo-grupo {
+    margin-bottom: 20px;
+}
+
+.campo-grupo label {
+    display: block;
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.campo-grupo input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333333;
+    transition: border-color 0.2s ease;
+}
+
+/* Efeito ao clicar/focar no input */
+.campo-grupo input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+/* Botão de envio */
+.btn-cadastrar {
+    width: 100%;
+    padding: 14px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Efeito hover no botão */
+.btn-cadastrar:hover {
+    background-color: #357abd;
+}
+
+/* Link de login no rodapé */
+.rodape-form {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.rodape-form a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape-form a:hover {
+    text-decoration: underline;
+}
